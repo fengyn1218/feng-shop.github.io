@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.feng</groupId>
+        <artifactId>my-shop-dependencies</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../my-shop-dependencies/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>my-shop-web-ui</artifactId>
+    <packaging>war</packaging>
+
+    <name>my-shop-web-ui</name>
+    <description></description>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.feng</groupId>
+            <artifactId>my-shop-commons</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.feng</groupId>
+            <artifactId>my-shop-domain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.kaptcha</groupId>
+            <artifactId>kaptcha</artifactId>
+        </dependency>
+
+
+
+
+
+    </dependencies>
+
+
+
+</project>
