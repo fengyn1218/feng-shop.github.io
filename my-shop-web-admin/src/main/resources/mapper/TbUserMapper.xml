@@ -85,8 +85,8 @@
     </delete>
 
     <delete id="delete">
-         DELETE FROM tb_user AS a
-        WHERE a.id =#{id}
+         DELETE FROM tb_user
+        WHERE id =#{id}
     </delete>
 
     <select id="page" resultType="tbUser" parameterType="java.util.Map">

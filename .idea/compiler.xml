@@ -16,11 +16,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="my-shop" target="1.8" />
+      <module name="my-shop" target="1.5" />
       <module name="my-shop-commons" target="1.8" />
       <module name="my-shop-dependencies" target="1.8" />
       <module name="my-shop-domain" target="1.8" />
-      <module name="my-shop-external" target="1.8" />
+      <module name="my-shop-external" target="1.5" />
       <module name="my-shop-web-admin" target="1.8" />
       <module name="my-shop-web-api" target="1.8" />
       <module name="my-shop-web-ui" target="1.8" />
